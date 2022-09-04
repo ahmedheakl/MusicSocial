@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>SocialMusic</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <form method="post" id="login-form">
+        <div class="form-data-input-packet">
+          <label for="username-input-login">Username: </label>
+          <input name="username" id="username-input-login" type="text" value="" placeholder="Email address or username" required/>
+        </div>
+
+        <div class="form-data-input-packet">
+          <label for="password-input-login">Password: </label>
+          <div class="password-input-container">
+            <input name="password" id="password-input-login" type="password" value="" placeholder="Password" />
+            <i class="far fa-eye toggle-visibility"></i>
+          </div>
+          
+        </div>
+        <div class="login-button-container">
+          <button id="login-button" type="button">LOG IN</button>
+        </div>
+      </form>
+      
+    </div>
+
+    
+  </body>
+  <!-- <script src="jquery.js"></script>  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- CDN -->
+  <script src="../static/script.js"></script>
+</html>
